@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Clicker Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Advanced Clicker Game</h1>
+        <button id="clickButton"></button>
+        <p>Points: <span id="points">0</span></p>
+        <div id="upgrades">
+            <h2>Upgrades</h2>
+            <button id="upgradeButton" disabled>Upgrade (Cost: <span id="upgradeCost">10</span> points)</button>
+        </div>
+        <div id="admin">
+            <h2>Admin Commands</h2>
+            <input type="text" id="adminCommand" placeholder="Enter admin command">
+            <button id="executeCommand">Execute</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
